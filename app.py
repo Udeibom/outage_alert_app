@@ -148,7 +148,7 @@ with col2:
     humidity_pct = st.number_input("Humidity (%)", value=70.0, format="%.1f")
 with col3:
     rain_mm = st.number_input("Rain (mm)", value=0.0, format="%.2f")
-    duration_off_hours = st.number_input("Recent duration off (hrs)", value=0, min_value=0, max_value=72)
+    duration_off_hours = st.number_input("Recent duration off (hrs), leave at 0 if light is ON currently", value=0, min_value=0, max_value=72)
 
 with st.expander("Optional: provide recent power history"):
     lag1_choice = st.selectbox("Power 1 hour ago", ["Unknown", "ON (1)", "OFF (0)"], index=0)
