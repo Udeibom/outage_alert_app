@@ -1,0 +1,9 @@
+streamlit>=1.20
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+joblib
+pyngrok  # optional — only needed for Colab demo
+matplotlib
+shap

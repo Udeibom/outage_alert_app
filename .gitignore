@@ -1,8 +1,3 @@
-# Project files
-app.py
-power_outage_rf_model.pkl
-requirements.txt
-
 # Virtual environment
 venv/
 
