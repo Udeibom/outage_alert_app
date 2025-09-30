@@ -1,0 +1,15 @@
+# Project files
+app.py
+power_outage_rf_model.pkl
+requirements.txt
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
